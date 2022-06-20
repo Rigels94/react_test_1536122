@@ -8,7 +8,7 @@ function Accomodate(props) {
   const [count, increaseCount, decreaseCount] = useCounter(0);
 
   useEffect(() => {
-    console.log('======================');
+    console.log('=====================');
     console.log('useEffect() is called.');
     console.log(`isFull: ${isFull}`);
   });
